@@ -1,10 +1,8 @@
- ======================================================================
-			      EE450 Socket Programming Project
- ======================================================================
+==============================================================================
 
-			          Name:      Yuqi Chen
-
- ======================================================================
+		  EE450 Socket Programming Project
+		  
+==============================================================================
 
 I. What I have done
 
@@ -12,8 +10,8 @@ I. What I have done
    functionalities of three phases with two client files and four 
    server files.  I did all of my programming and debug testing work 
    on USC Student VM and it worked well as expected.
-
- ======================================================================  
+   
+==============================================================================
 
 II. File Structure
 
@@ -47,7 +45,7 @@ II. File Structure
 	   topology and scores to calculate the final result and send it back 
 	   to the central server.
 
- ======================================================================
+==============================================================================
 
 III. Format of message
 
@@ -99,7 +97,7 @@ III. Format of message
 	   The serverP received the topology and score information
 	   The serverP finished sending the results to the Central
 
- ======================================================================
+==============================================================================
 
 IV. Idiosyncrasy in Project
         
@@ -107,7 +105,7 @@ IV. Idiosyncrasy in Project
    large size. The max length of buffers are set to 4000. If a single 
    message or file exceeds this size, the program will crash.
 
- ======================================================================
+==============================================================================
 
 V. Reused Code
         
